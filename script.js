@@ -7,10 +7,11 @@ newAdvice.addEventListener("click", () => {
 });
 
 // random background
-const colors = [["#a0ff61", "#83ff31"], ["#6abcff", "#249cff"], ["#ff6666", "#fc2626"], ["#f0fa64", "#f0ff20"]];
+const colors = [["#a0ff61", "#83ff31", "green"], ["#6abcff", "#249cff", "blue"], ["#ff6666", "#fc2626", "red"], ["#f0fa64", "#f0ff20", "yellow"]];
 const randomColors = colors[Math.floor(Math.random() * colors.length)];
 const body= document.querySelector("body");
 body.style.background = `linear-gradient(to left, ${randomColors[0]}, ${randomColors[1]})`;
+document.querySelector("head > link:nth-child(6)").href = `./img/favicon-${randomColors[2]}.png`
 
 
 // connecting to api
