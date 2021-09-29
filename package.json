@@ -1,13 +1,13 @@
 {
   "name": "random-advice-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Written in HTML, CSS and JavaScript. Uses Advice Slip JSON API for random advices.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Orhan Emre",
+  "license": "MIT License",
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
